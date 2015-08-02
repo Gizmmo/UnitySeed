@@ -1,5 +1,5 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public abstract class Generator : EventEmitter {
-	
+public abstract class Generator<T> : Singleton<T>, IGenerator where T : MonoBehaviour  {
+
 }

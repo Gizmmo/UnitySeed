@@ -1,7 +1,5 @@
-﻿using UnityEngine;
-using System.Collections;
-
-public interface iManager {
+﻿
+public interface IManager {
 
 
 }
